@@ -18,7 +18,7 @@ public class GT4500Test {
     primmock = mock(TorpedoStore.class);
     secomock = mock(TorpedoStore.class);
     this.ship = new GT4500();
-    this.ship.fireaction(primmock, secomock);
+    this.ship.fireaction(primmock, secomock, false);
     
 
   }
